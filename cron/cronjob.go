@@ -3,10 +3,10 @@ package cron
 import (
 	"sync"
 
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/connection"
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/helper"
-	log_function "github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/log"
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/model/del_old_log_from_elastic"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/connection"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/helper"
+	log_function "github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/log"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/model/del_old_log_from_elastic"
 	"github.com/robfig/cron/v3"
 )
 

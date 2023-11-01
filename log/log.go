@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/connection"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/connection"
 	"github.com/elastic/go-elasticsearch/esapi"
 	"github.com/google/uuid"
 	logrus "github.com/sirupsen/logrus"
@@ -68,7 +68,7 @@ func sendLogToElasticsearch(level logrus.Level, args ...interface{}) {
 
 	// Set up the request object directly from the Elasticsearch library
 	req := esapi.IndexRequest{
-		Index:      "status_mc_detection_publisher_log",
+		Index:      "download_playback_publisher_log",
 		DocumentID: randomID, // make it random
 		Body:       &buf,
 		Refresh:    "true",

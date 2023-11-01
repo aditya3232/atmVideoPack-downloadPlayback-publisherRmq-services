@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	log_function "github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/log"
+	log_function "github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/log"
 	esv7 "github.com/elastic/go-elasticsearch/v7"
 )
 
@@ -54,7 +54,7 @@ func (r *repository) DelOneMonthOldLogs() error {
 		}
 
 		// Delete documents using DeleteByQuery
-		_, err = r.elasticsearch.DeleteByQuery([]string{"status_mc_detection_publisher_log"}, strings.NewReader(string(queryJSON)))
+		_, err = r.elasticsearch.DeleteByQuery([]string{"download_playback_publisher_log"}, strings.NewReader(string(queryJSON)))
 		if err != nil {
 			return err
 		}

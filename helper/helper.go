@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	log_function "github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/log"
+	log_function "github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/log"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 	"gorm.io/gorm"

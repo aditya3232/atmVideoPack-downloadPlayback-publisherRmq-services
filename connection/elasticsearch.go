@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/config"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/config"
 	esv7 "github.com/elastic/go-elasticsearch/v7"
 )
 

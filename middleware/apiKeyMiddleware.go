@@ -3,8 +3,8 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/helper"
-	log_function "github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/log"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/helper"
+	log_function "github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/log"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/config"
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/connection"
-	_ "github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/cron"
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/helper"
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/routes"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/config"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/connection"
+	_ "github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/cron"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/helper"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/routes"
 	"github.com/gin-gonic/gin"
 )
 

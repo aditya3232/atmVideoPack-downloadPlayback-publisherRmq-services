@@ -6,9 +6,9 @@ import (
 	"mime/multipart"
 	"path/filepath"
 
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/connection"
-	"github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/helper"
-	log_function "github.com/aditya3232/atmVideoPack-statusMcDetection-publisherRmq-services.git/log"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/connection"
+	"github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/helper"
+	log_function "github.com/aditya3232/atmVideoPack-downloadPlayback-publisherRmq-services.git/log"
 	"github.com/gin-gonic/gin"
 	"github.com/minio/minio-go/v7"
 )
